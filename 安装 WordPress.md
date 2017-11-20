@@ -14,7 +14,7 @@ MAMP代表Macintosh，Apache，MySQL和PHP。MAMP是一个可以在Mac上安装�
 
 ### 安装MAMP步骤
 
-1. 安装MAMP：在Mac上安装MAMP之前，您需要从MAMP网站上下载它。 MAMP要求您的Mac运行Mac OS X 10.6.6或更高版本。
+1. 安装MAMP：在Mac上安装MAMP之前，您需要从MAMP网站上下载它。 MAMP要求您的Mac运行Mac OS X 10.6.6或更高版本。  
 MAMP破解版[下载地址](https://waitsun.ctfile.com/fs/160721-223409240)
 
 2. 基本的MAMP设置：启动MAMP,在编辑设置时，MAMP可能会提示您输入管理员密码。 这是必需的，因为MAMP需要运行两个进程：mysqld（MySQL）和httpd（Apache）。一旦你打开MAMP，点击Preferences。 接下来点击“Ports”。 Apache的默认MAMP端口为8888，MySQL为8889。 如果你使用这个配置，你不应该被要求输入密码，但是你需要在URL（localhost：8888）中包含端口号。 如果您希望将端口号从URL中删除，请将Apache端口更改为80.使用端口80作为MAMP Apache端口的缺点是始终会要求您输入密码。
