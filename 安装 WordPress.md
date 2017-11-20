@@ -21,11 +21,11 @@ MAMP破解版[下载地址](https://waitsun.ctfile.com/fs/160721-223409240)
 最后，在“Web Server”选项卡上，您需要设置文档根目录。 这就是你所有的文件将用于你的本地网络服务器的地方。 文档根目录的例子是/Users/USERNAME/ Site /wordpress/。
 编辑完所有设置后，点击OK保存。
 
-3.启动MAMP服务器并创建数据库:要启动MAMP Apache和MySQL服务器，只需点击主MAMP屏幕上的“Start Servers”即可。 你的MAMP服务器现在已经启动了。
+3. 启动MAMP服务器并创建数据库:要启动MAMP Apache和MySQL服务器，只需点击主MAMP屏幕上的“Start Servers”即可。 你的MAMP服务器现在已经启动了。
 一旦MAMP服务器启动，MAMP开始页面应该在您的默认Web浏览器中打开。 如果没有，点击MAMP窗口中的“Open start page”。 一旦打开，从网页选择phpMyAdmin。
 在“Create new database”下，输入数据库名称，如“wordpress”，然后按“Create”。 无需为“collation”选择一个选项：在安装WordPress的过程中，当数据库表创建时，它将自动由MySQL分配。
 
-4.下载和安装WordPress
+4. 下载和安装WordPress
 现在是[下载WordPress](https://wordpress.org/download/)的时候了。 下载并解压缩WordPress后，打开“wordpress”文件夹。 点击并拖动wordpress文件夹中的所有文件到你的MAMP文档根目录(/Users/USERNAME/Sites/wordpress/)。
 其他的默认MAMP安装应该重命名并拖动文件夹到位于/Applications/MAMP下的htdocs文件夹。 然后在浏览器中，转到localhost:port/folder_renamed来运行安装。 例如，在默认的MAMP安装中，如果该文件夹被重命名为wordpresstest，请转到localhost:8888/ wordpresstest。
 最后，我们必须运行[WordPress著名的5分钟安装](https://codex.wordpress.org/zh-cn:%E5%AE%89%E8%A3%85WordPress)。
